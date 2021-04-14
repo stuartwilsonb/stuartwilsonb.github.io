@@ -61,7 +61,7 @@ author:
   name    : "Stuart Wilson"
   avatar  : "/assets/images/bio-photo.jpg"
   bio     : "Just a place to solve some problems with data." 
-  email   : "stuartwilsonb@gmail.com"
+#  email   : "stuartwilsonb@gmail.com"
   location: "Munich, Germany"
  # links:
  #    - label: "Email"
