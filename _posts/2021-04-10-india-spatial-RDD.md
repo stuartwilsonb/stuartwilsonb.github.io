@@ -1,5 +1,5 @@
 ---
-title: "India Spatial RDD"
+title: "India -- Spatial RDD"
 date: 2021-04-10
 categories:
   - project
