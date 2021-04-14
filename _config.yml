@@ -58,14 +58,15 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Stuart Wilson"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Just a place to solve some problems with data." 
+  name    : "Stuart Wilson"
+  avatar  : "/assets/images/bio-photo.jpg"
+  bio     : "Just a place to solve some problems with data." 
+  email   : "stuartwilsonb@gmail.com"
   location: "Munich, Germany"
-  links:
-     - label: "Email"
-       icon: "fas fa-fw fa-envelope-square"
-       url: "stuartwilsonb@gmail.com"
+ # links:
+ #    - label: "Email"
+ #      icon: "fas fa-fw fa-envelope-square"
+ #      url: "stuartwilsonb@gmail.com"
   #  - label: "Website"
   #    icon: "fas fa-fw fa-link"
   #    url: "https://"
