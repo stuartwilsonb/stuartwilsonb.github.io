@@ -10,7 +10,7 @@ tags:
   - gis
 ---
 
-In this [project](https://github.com/stuartwilsonb/stuartwilson/blob/master/Projects/India/india.ipynb),
+In this [project](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/India/india.ipynb),
 I try to determine if differing government styles in colonial India had a long-term effect on economic
 development. During colonial times, Great Britain governed India in two ways. In some areas, the local 
 Indian rulers were overthrown, and British governors were put in power. In other areas, the local rulers were 
