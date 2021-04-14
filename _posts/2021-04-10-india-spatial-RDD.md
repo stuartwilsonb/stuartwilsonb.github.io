@@ -2,7 +2,7 @@
 title: "India -- Spatial RDD"
 date: 2021-04-10
 categories:
-  - project
+  - Project
 tags:
   - india
   - spatial 
@@ -17,5 +17,8 @@ Indian rulers were overthrown, and British governors were put in power. In other
 allowed to remain in power if they signed a treaty of vassalage to the British. The former areas were
 called British provinces and the latter were called princely states. I compare modern areas of India
 which were located in former British provinces with those located in the former princely states. 
-To tackle this problem, I make use of a spatial regression discontinuity design (spatial RDD). 
+
+To tackle this problem, I make use of a spatial regression discontinuity design (spatial RDD). The main programs
+used are Python and ArcGIS.
+
 This project is based on a paper by Lakshimi Iyer.
