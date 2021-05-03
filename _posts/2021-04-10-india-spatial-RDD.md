@@ -5,9 +5,10 @@ categories:
   - Project
 tags:
   - india
-  - spatial 
-  - rdd
+  - spatialrdd
+  - python
   - gis
+classes: wide
 ---
 
 In this [project](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/India/india.ipynb),
