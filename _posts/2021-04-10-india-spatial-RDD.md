@@ -4,11 +4,8 @@ date: 2021-04-10
 categories:
   - Project
 tags:
-  - india
-  - spatialrdd
+  - arcgis
   - python
-  - gis
-classes: wide
 ---
 
 In this [project](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/India/india.ipynb),
