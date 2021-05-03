@@ -8,7 +8,6 @@ tags:
   - python
   - pandas
   - seaborn
-classes: wide
 ---
 
 
@@ -49,11 +48,13 @@ I now have my dataset that I can start working with. And it's a pretty large one
 
 {% highlight ruby %}
 neiss.shape
+
 ## (1841588, 26)
 {% endhighlight %}
 
 {% highlight ruby %}
 neiss.columns
+
 ## Index(['CPSC_Case_Number', 'Treatment_Date', 'Year', 'Age', 'Sex', 'Race',
 ##       'Other_Race', 'Hispanic', 'Body_Part', 'Diagnosis', 'Other_Diagnosis',
 ##       'Body_Part_2', 'Diagnosis_2', 'Other_Diagnosis_2', 'Disposition',
@@ -154,6 +155,7 @@ scissor = all_prod.loc[(all_prod['Product']=='manual scissors') |
 all_prod.loc[-1] = ['Scissors', scissor]
 all_prod['Rank'] = all_prod['Weight'].rank(ascending=False)
 all_prod.loc[all_prod['Product']=='Scissors']
+
 ##  Product	    Weight	    Rank
 ##	Scissors	96793.6992	117.0
 {% endhighlight %}
@@ -233,11 +235,14 @@ are some of the descriptions for people injured by trash cans.
 {% highlight ruby %}
 trashcan = neiss.loc[neiss['Product']=='waste containers, trash baskets or refus']
 trashcan['Narrative'].head(3)
+
 ## 13 MO FEMALE FELL AND HIT MOUTH ON A TRASH CAN. DX LIP LACERATION
 
-## 53YM WAS PUSHING THE GARBAGE DOWN IN THE GARBAGE CAN&CUT HAND ON SHARP OBJ >> LAC
+## 53YM WAS PUSHING THE GARBAGE DOWN IN THE GARBAGE CAN&CUT HAND ON 
+## SHARP OBJ >> LAC
 
-## L62 YOM RESIDENT OF LOCAL NURSING HOME, FLIPPED OUT OF WHEELCHAIR;STRUCK HEAD ON TRASH CAN. LACERATION OF HEAD
+## L62 YOM RESIDENT OF LOCAL NURSING HOME, FLIPPED OUT OF WHEELCHAIR;
+## STRUCK HEAD ON TRASH CAN. LACERATION OF HEAD
 {% endhighlight %}
 
 To find the injuries involving running with scissors, I looked through this `Narrative` column for specific
@@ -251,13 +256,16 @@ glimpse of how often people are injuried running with scissors.
 sci_run = scissors.loc[(scissors['Narrative'].str.contains(' RAN ')) |
                             (scissors['Narrative'].str.contains(' RUN'))]
 sci_run.head(3)
-## 8 YOF RUNNING WITH SCISSORS, JUMPED OVER RECLINER, FELL ONTO SCISSORS WITH MOUTH OPEN DX ORAL PW
 
-## 3 YOF CUT RIGHT THUMB ON SCISSORS WHILE RUNNING AT HOME HOMEDX: LACERATION OF FINGER
+## 8 YOF RUNNING WITH SCISSORS, JUMPED OVER RECLINER, FELL ONTO SCISSORS 
+## WITH MOUTH OPEN DX ORAL PW
+
+## 3 YOF CUT RIGHT THUMB ON SCISSORS WHILE RUNNING AT HOME HOMEDX: 
+## LACERATION OF FINGER
 
 ## 25YOM PRESENTS C/O FOREARM INJURY GRABBED SCISSORS FROM HIS NIECE 
-## BECAUSE SHE WAS RUNNING W/ THEM AND ACCIDENTALLY FELL INJURING HIS LEFT ARM W/ THE 
-## SCISSORS. DX: LACERATION OF LEFT FOREARM
+## BECAUSE SHE WAS RUNNING W/ THEM AND ACCIDENTALLY FELL INJURING HIS
+## LEFT ARM W/ THE SCISSORS. DX: LACERATION OF LEFT FOREARM
 {% endhighlight %}
 
 So there are indeed examples where people running with scissors have either injured themselves or injured
@@ -265,6 +273,7 @@ others. But how common is it actually?
 
 {% highlight ruby %}
 sci_run['Weight'].sum()/scissors['Weight'].sum()
+
 ## 0.006652132373508874
 {% endhighlight %}
 
@@ -277,6 +286,7 @@ under?
 sci_run_kids = sci_kids.loc[(sci_kids['Narrative'].str.contains(' RAN ')) | 
                             (sci_kids['Narrative'].str.contains(' RUN'))]
 sci_run_kids['Weight'].sum()/sci_kids['Weight'].sum()
+
 ## 0.019238715684583386
 {% endhighlight %}
 
@@ -520,4 +530,4 @@ someone who is interested in text analysis could probably make good use of the `
 that can provide the answers to a ton of different questions.
 
 Lastly, some of the coding blocks above have been edited for clarity and readability. The entirety of my code is
-available here LINK
+available [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss.ipynb).
