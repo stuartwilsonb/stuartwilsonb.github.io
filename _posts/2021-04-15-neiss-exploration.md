@@ -534,4 +534,4 @@ available [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Proj
 
 
 *I have also performed some classifcation and NLP tasks on this dataset. This raw code is not fully completed and is unclean; however,
-it can be viewed [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss_clf.ipynb). *
+it can be viewed [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss_clf.ipynb).*
