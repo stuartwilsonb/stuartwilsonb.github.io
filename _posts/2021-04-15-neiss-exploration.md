@@ -529,5 +529,9 @@ find out if different races are more or less likely to be injured in a public pl
 someone who is interested in text analysis could probably make good use of the `Narrative` column. This really is a fun dataset
 that can provide the answers to a ton of different questions.
 
-Lastly, some of the coding blocks above have been edited for clarity and readability. The entirety of my code is
+Some of the coding blocks above have been edited for clarity and readability. The entirety of my code is
 available [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss.ipynb).
+
+
+*I have also performed some classifcation and NLP tasks on this dataset. This raw code is not fully completed and is unclean; however,
+it can be viewed [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss_clf.ipynb).
