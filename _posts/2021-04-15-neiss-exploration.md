@@ -532,6 +532,3 @@ that can provide the answers to a ton of different questions.
 Some of the coding blocks above have been edited for clarity and readability. The entirety of my code is
 available [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss.ipynb).
 
-
-*I have also performed some classifcation and NLP tasks on this dataset. This raw code is not fully completed and is unclean; however,
-it can be viewed [here](https://github.com/stuartwilsonb/stuartwilsonb/blob/master/Projects/NEISS/neiss_clf.ipynb).*
